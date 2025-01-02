@@ -3553,7 +3553,7 @@
     (property "Value" "SW_SPDT" (at 210.82 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled" (at 209.55 38.1 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12" (at 209.55 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 209.55 30.48 0)
