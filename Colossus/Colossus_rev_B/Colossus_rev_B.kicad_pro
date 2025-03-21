@@ -17,7 +17,6 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "rules": {
-        "min_copper_edge_clearance": 0.0,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0
       },
@@ -254,7 +253,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Colossus_rev_A.kicad_pro",
+    "filename": "Colossus_rev_B.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -271,9 +270,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -371,17 +370,48 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
-    "legacy_lib_list": [],
+    "legacy_lib_list": [
+      "power",
+      "device",
+      "transistors",
+      "conn",
+      "linear",
+      "regul",
+      "74xx",
+      "cmos4000",
+      "adc-dac",
+      "memory",
+      "xilinx",
+      "microcontrollers",
+      "dsp",
+      "microchip",
+      "analog_switches",
+      "motorola",
+      "texas",
+      "intel",
+      "audio",
+      "interface",
+      "digital-audio",
+      "philips",
+      "display",
+      "cypress",
+      "siliconi",
+      "opto",
+      "atmel",
+      "contrib",
+      "valves",
+      "D:/Proiecte/Programe/KiCad/share/kicad/library/switches"
+    ],
     "meta": {
       "version": 1
     },
@@ -397,35 +427,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "f9d0711f-6ce2-4b5d-92d8-55aba4410825",
-      "Root"
-    ],
-    [
-      "cc076f9f-e46d-41ba-8fa0-53ede587c287",
-      "Temperature Sensing"
-    ],
-    [
-      "2dfe1229-085e-4964-a0ef-e856249f1c21",
-      "Strain Sensing"
-    ],
-    [
-      "77185b42-3858-40e5-a248-00eb51cea37d",
-      "IMU"
-    ],
-    [
-      "a142164d-9996-42ca-80ea-34562b9859ec",
-      "MFC_COMM_OUT"
-    ],
-    [
-      "caece1c4-d9f8-4cc3-894e-fa7cd2e05424",
-      "MFC_COMM_IN"
-    ],
-    [
-      "a22b8389-0b5b-4971-aa1f-70ba133f1c8b",
-      "Energy Harvesting"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
