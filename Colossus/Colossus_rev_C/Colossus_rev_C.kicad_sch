@@ -2018,7 +2018,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U1"
 				(at 30.48 10.16 0)
 				(effects
 					(font
@@ -2034,7 +2034,7 @@
 					)
 				)
 			)
-			(property "Footprint" "WLCSP39_STM"
+			(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x14_P1.27mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4386,18 +4386,6 @@
 		(uuid 7fa7df3c-5042-42d5-bc8a-2fe7e0a61c0c)
 	)
 	(rectangle
-		(start 191.77 12.7)
-		(end 283.21 135.89)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9c2b2618-d30d-4aae-89a6-ead19f706620)
-	)
-	(rectangle
 		(start 13.97 135.89)
 		(end 161.29 195.58)
 		(stroke
@@ -4495,19 +4483,6 @@
 			(justify left bottom)
 		)
 		(uuid "c22202cb-6ffa-4d57-ab71-9909a45ce809")
-	)
-	(text "OPTIONS"
-		(exclude_from_sim no)
-		(at 193.04 21.59 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c67ed0c6-bfdd-47d7-92dc-da218b67a9be")
 	)
 	(label "A15"
 		(at 22.86 85.09 180)
@@ -5902,7 +5877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x14_P1.27mm_Vertical"
+		(property "Footprint" "Library:DFN8_1P6X1P2_STM-M"
 			(at 33.02 151.13 0)
 			(effects
 				(font
@@ -6669,7 +6644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x14_P1.27mm_Horizontal"
+		(property "Footprint" "Library:WLCSP39_STM"
 			(at 22.86 52.07 0)
 			(effects
 				(font
@@ -6915,7 +6890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_APV_ANR252010"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 114.3 165.1 0)
 			(effects
 				(font
@@ -8821,234 +8796,6 @@
 				(path "/f9d0711f-6ce2-4b5d-92d8-55aba4410825"
 					(reference "C9")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 194.31 41.91)
-		(size 82.55 11.43)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2dfe1229-085e-4964-a0ef-e856249f1c21")
-		(property "Sheetname" "Strain Sensing"
-			(at 194.31 41.1984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Strain Sensing.kicad_sch"
-			(at 194.31 53.9246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Colossus_rev_A"
-				(path "/f9d0711f-6ce2-4b5d-92d8-55aba4410825"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 194.31 58.42)
-		(size 82.55 11.43)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "77185b42-3858-40e5-a248-00eb51cea37d")
-		(property "Sheetname" "IMU"
-			(at 194.31 57.7084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "IMU.kicad_sch"
-			(at 194.31 70.4346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Colossus_rev_A"
-				(path "/f9d0711f-6ce2-4b5d-92d8-55aba4410825"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 194.31 74.93)
-		(size 82.55 11.43)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a142164d-9996-42ca-80ea-34562b9859ec")
-		(property "Sheetname" "MFC_COMM_OUT"
-			(at 194.31 74.2184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MFC_COMM_OUT.kicad_sch"
-			(at 194.31 86.9446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Colossus_rev_A"
-				(path "/f9d0711f-6ce2-4b5d-92d8-55aba4410825"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 194.31 107.95)
-		(size 82.55 11.43)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a22b8389-0b5b-4971-aa1f-70ba133f1c8b")
-		(property "Sheetname" "Energy Harvesting"
-			(at 194.31 107.2384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Energy Harvesting.kicad_sch"
-			(at 194.31 119.9646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Colossus_rev_A"
-				(path "/f9d0711f-6ce2-4b5d-92d8-55aba4410825"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 194.31 91.44)
-		(size 82.55 11.43)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "caece1c4-d9f8-4cc3-894e-fa7cd2e05424")
-		(property "Sheetname" "MFC_COMM_IN"
-			(at 194.31 90.7284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MFC_COMM_IN.kicad_sch"
-			(at 194.31 103.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Colossus_rev_A"
-				(path "/f9d0711f-6ce2-4b5d-92d8-55aba4410825"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 194.31 25.4)
-		(size 82.55 11.43)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "cc076f9f-e46d-41ba-8fa0-53ede587c287")
-		(property "Sheetname" "Temperature Sensing"
-			(at 194.31 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Temperature Sensing.kicad_sch"
-			(at 194.31 37.4146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Colossus_rev_A"
-				(path "/f9d0711f-6ce2-4b5d-92d8-55aba4410825"
-					(page "2")
 				)
 			)
 		)

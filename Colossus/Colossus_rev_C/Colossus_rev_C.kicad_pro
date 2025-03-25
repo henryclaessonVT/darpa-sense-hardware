@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -173,7 +179,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -200,7 +209,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -433,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Colossus_rev_A.kicad_pro",
+    "filename": "Colossus_rev_C.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -580,30 +594,6 @@
     [
       "f9d0711f-6ce2-4b5d-92d8-55aba4410825",
       "Root"
-    ],
-    [
-      "cc076f9f-e46d-41ba-8fa0-53ede587c287",
-      "Temperature Sensing"
-    ],
-    [
-      "2dfe1229-085e-4964-a0ef-e856249f1c21",
-      "Strain Sensing"
-    ],
-    [
-      "77185b42-3858-40e5-a248-00eb51cea37d",
-      "IMU"
-    ],
-    [
-      "a142164d-9996-42ca-80ea-34562b9859ec",
-      "MFC_COMM_OUT"
-    ],
-    [
-      "caece1c4-d9f8-4cc3-894e-fa7cd2e05424",
-      "MFC_COMM_IN"
-    ],
-    [
-      "a22b8389-0b5b-4971-aa1f-70ba133f1c8b",
-      "Energy Harvesting"
     ]
   ],
   "text_variables": {}
