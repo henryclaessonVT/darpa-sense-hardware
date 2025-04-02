@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.1*%
+%TF.CreationDate,2025-04-02T11:20:44-04:00*%
+%TF.ProjectId,Colossus_TI_rev_A,436f6c6f-7373-4757-935f-54495f726576,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.1) date 2025-04-02 11:20:44*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.254000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,SW2*%
+X60562100Y-70499999D02*
+G75*
+G02*
+X60308100Y-70499999I-127000J0D01*
+G01*
+X60308100Y-70499999D02*
+G75*
+G02*
+X60562100Y-70499999I127000J0D01*
+G01*
+%TD*%
+M02*

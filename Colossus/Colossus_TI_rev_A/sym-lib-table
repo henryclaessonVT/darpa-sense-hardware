@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MSPM0C1104 DYY0016A")(type "KiCad")(uri "${KIPRJMOD}/Colossus_TI_rev_A Specific Libraries/MSM0C1104SDDYR - Microcontroller/KiCADv6/2025-03-26_14-08-27.kicad_sym")(options "")(descr "DYY0016A or larger package"))
+)
