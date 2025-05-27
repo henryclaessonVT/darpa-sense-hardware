@@ -1,0 +1,160 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CSD18541F5" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "Q" (id 0) (at 7.62136 0.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "CSD18541F5" (id 1) (at 7.62869 -2.5429 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "CSD18541F5:DFN149X73X35-3N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "TEXAS INSTRUMENTS" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "CSD18541F5_0_0"
+      (polyline
+        (pts (xy -3.6576 2.413) (xy -3.6576 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.6576 -2.54) (xy -5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 1.905) (xy -2.0066 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.032 -1.905) (xy 0.0 -1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 2.032) (xy 0.0 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 1.905) (xy 2.54 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 1.905) (xy 2.54 0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.762) (xy 2.54 -1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -1.905) (xy 0.0 -1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -1.905) (xy 0.0 -2.032)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.762) (xy 1.905 -0.635)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.905 -0.635) (xy 3.175 -0.635)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.175 -0.635) (xy 2.54 0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.905 0.762) (xy 2.54 0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.762) (xy 3.175 0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.286 0.0) (xy -0.762 -0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 -0.508) (xy -0.762 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 0.0) (xy -0.762 0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 0.508) (xy -2.286 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.889 0.254) (xy -2.286 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.143 0.254) (xy -2.032 0.0)) (stroke (width 0.3048))
+      )
+      (polyline
+        (pts (xy -2.032 0.0) (xy -0.889 -0.254)) (stroke (width 0.3048))
+      )
+      (polyline
+        (pts (xy -0.889 -0.254) (xy -0.889 0.254)) (stroke (width 0.3048))
+      )
+      (polyline
+        (pts (xy -0.889 0.254) (xy -1.905 0.0)) (stroke (width 0.3048))
+      )
+      (circle (center 0.0 -1.905) (radius 0.127)
+        (stroke (width 0.4064)) (fill (type none))
+      )
+      (circle (center 0.0 1.905) (radius 0.127)
+        (stroke (width 0.4064)) (fill (type none))
+      )
+      (text "D" (at -1.5268 2.54467 0)
+        (effects (font (size 0.814295 0.814295)) (justify bottom left))
+      )
+      (text "S" (at -1.78074 -3.43429 0)
+        (effects (font (size 0.814053 0.814053)) (justify bottom left))
+      )
+      (text "G" (at -4.8342 -1.27216 0)
+        (effects (font (size 0.814181 0.814181)) (justify bottom left))
+      )
+      (rectangle (start -2.79795 -2.54359) (end -2.032 -1.27)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (rectangle (start -2.7964 1.27109) (end -2.032 2.54)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (rectangle (start -2.7944 -0.889128) (end -2.032 0.889)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -0.762 0.0) (xy -1.905 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.905 0.0) (xy -2.032 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.032 0.0) (xy -2.286 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 5.08) (xy 0.0 2.032)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -5.08) (xy 0.0 -2.032)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.762 0.0) (xy 0.0 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 0.0 -1.778)) (stroke (width 0.254))
+      )
+      (pin passive line (at 0.0 7.62 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -7.62 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

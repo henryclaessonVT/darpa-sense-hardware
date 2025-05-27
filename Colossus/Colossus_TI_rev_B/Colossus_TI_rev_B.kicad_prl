@@ -1,13 +1,15 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
       "Vss",
-      "PA2",
-      "PA23"
+      "Vdd",
+      "A4",
+      "A5",
+      "A3"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -44,9 +46,10 @@
       "tracks",
       "bitmaps",
       "pads",
+      "zones",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fffffff_ffffffab",
+    "visible_layers": "00000000_00000000_0ffffff7_fffffffb",
     "zone_display_mode": 0
   },
   "git": {
@@ -56,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Colossus_TI_rev_A.kicad_prl",
+    "filename": "Colossus_TI_rev_B.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
