@@ -1,4 +1,4 @@
-25222904827263343
+25217680323841687
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -370,13 +370,6 @@ battery CR-3032 coin cell vertical
 0
 2
 2
-Button - B3F_1000
-SW_B3F-1000_OMR
-
-B3F-1000 
-0
-4
-4
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -2659,10 +2652,10 @@ speaker CUI
 0
 2
 2
-CS12ANW03 - Switch
-CS12ANW03_NKK
+CSD18541F5 - n channel mosfet
+DFN149X73X35-3N
 
-CS12ANW03 
+
 0
 3
 3
@@ -58008,13 +58001,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-DreamsLabLogo
-dreamslogo
-
-
-0
-0
-0
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -59072,13 +59058,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-Graphics
-magnifier
-
-
-0
-0
-0
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -66709,27 +66688,6 @@ Yellow 5381 Series LED
 0
 2
 2
-MSPM0C110
-SOT-23-THIN16_DYY_TEX
-
-XMSM0C1104SDYYR 
-0
-16
-16
-MSPM0C110
-SOT-23-THIN16_DYY_TEX-L
-
-XMSM0C1104SDYYR 
-0
-16
-16
-MSPM0C110
-SOT-23-THIN16_DYY_TEX-M
-
-XMSM0C1104SDYYR 
-0
-16
-16
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -92427,13 +92385,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SW_G-107-0513
-SW_G-107-0513
-
-
-0
-3
-3
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -101331,3 +101282,31 @@ Varistor VF
 0
 2
 2
+button
+SW_B3F-1000_OMR
+
+B3F-1000 
+0
+4
+4
+footprints
+SOT-23-THIN16_DYY_TEX
+
+XMSM0C1104SDYYR 
+0
+16
+16
+footprints
+SOT-23-THIN16_DYY_TEX-L
+
+XMSM0C1104SDYYR 
+0
+16
+16
+footprints
+SOT-23-THIN16_DYY_TEX-M
+
+XMSM0C1104SDYYR 
+0
+16
+16
