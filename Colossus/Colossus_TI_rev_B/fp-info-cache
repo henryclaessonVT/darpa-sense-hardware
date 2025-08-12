@@ -1,4 +1,11 @@
-25217680323841687
+25231707200897747
+Analog Switch - SN74LVC1G3157DSFR
+SON35P100X100X40-6N
+
+
+0
+6
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2652,13 +2659,6 @@ speaker CUI
 0
 2
 2
-CSD18541F5 - n channel mosfet
-DFN149X73X35-3N
-
-
-0
-3
-3
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -58001,6 +58001,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+DreamsLabLogo
+dreamslogo
+
+
+0
+0
+0
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -66688,6 +66695,34 @@ Yellow 5381 Series LED
 0
 2
 2
+MSMP0
+SOT-23-THIN16_DYY_TEX
+
+XMSM0C1104SDYYR 
+0
+16
+16
+MSMP0
+SOT-23-THIN16_DYY_TEX-L
+
+XMSM0C1104SDYYR 
+0
+16
+16
+MSMP0
+SOT-23-THIN16_DYY_TEX-M
+
+XMSM0C1104SDYYR 
+0
+16
+16
+MSPM0C110
+SW_B3F-1000_OMR
+
+B3F-1000 
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -99672,6 +99707,27 @@ test point THT pad
 0
 1
 1
+Tie Fighter Logo
+Untitled
+
+
+0
+0
+0
+Tie Fighter Logo
+tiefighter1
+
+
+0
+0
+0
+Tie Fighter Logo
+tiefighter2
+
+
+0
+0
+0
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
@@ -101282,31 +101338,31 @@ Varistor VF
 0
 2
 2
-button
+footprints
 SW_B3F-1000_OMR
 
 B3F-1000 
 0
 4
 4
-footprints
-SOT-23-THIN16_DYY_TEX
+xwing
+xwing1
 
-XMSM0C1104SDYYR 
-0
-16
-16
-footprints
-SOT-23-THIN16_DYY_TEX-L
 
-XMSM0C1104SDYYR 
 0
-16
-16
-footprints
-SOT-23-THIN16_DYY_TEX-M
+0
+0
+xwing
+xwing2
 
-XMSM0C1104SDYYR 
+
 0
-16
-16
+0
+0
+xwing
+xwing3
+
+
+0
+0
+0
